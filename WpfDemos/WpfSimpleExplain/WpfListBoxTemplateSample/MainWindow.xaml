@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfListBoxTemplateSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfListBoxTemplateSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="240" Width="300">
+    <StackPanel>
+        <TextBlock Text="Student Id:" FontWeight="Bold" Margin="5"></TextBlock>
+        <TextBox x:Name="TextBoxId" Margin="5"></TextBox>
+
+        <TextBlock Text="Student List:" FontWeight="Bold" Margin="5"></TextBlock>
+        <ListBox x:Name="StudentList" Height="110" Margin="5">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="TextBlockId" Text="{Binding Path=Id}" Width="30"></TextBlock>
+                        <TextBlock x:Name="TextBlockName" Text="{Binding Path=Name}" Width="60"></TextBlock>
+                        <TextBlock x:Name="TextBlockAge" Text="{Binding Path=Age}" Width="30"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</Window>

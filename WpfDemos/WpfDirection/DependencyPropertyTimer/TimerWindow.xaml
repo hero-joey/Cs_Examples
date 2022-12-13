@@ -1,0 +1,15 @@
+﻿<Window x:Class="DependencyPropertyTimer.TimerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DependencyPropertyTimer"
+        mc:Ignorable="d"
+        Title="TimerWindow" Height="200" Width="350">
+    <StackPanel>
+        <local:CustomerTextBlock Text="{Binding RelativeSource={x:Static RelativeSource.Self}, 
+            Path=Timer}" FontSize="32" Background="Wheat"></local:CustomerTextBlock>
+        <local:CustomerTextBlock Text="{Binding RelativeSource={x:Static RelativeSource.Self}, 
+            Path=Timer}" Timer="2015/06/30" FontSize="32" Background="Wheat"></local:CustomerTextBlock>
+    </StackPanel>
+</Window>

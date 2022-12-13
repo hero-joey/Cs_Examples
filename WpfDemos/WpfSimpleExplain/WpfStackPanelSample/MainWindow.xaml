@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfStackPanelSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfStackPanelSample"
+        mc:Ignorable="d"
+        Title="选择题" Height="190" Width="300">
+    <Grid>
+        <GroupBox Header="选择合适的题目">
+            <StackPanel Margin="5">
+                <CheckBox Content="A.无所事事"></CheckBox>
+                <CheckBox Content="B.游手好闲"></CheckBox>
+                <CheckBox Content="C.好吃懒做"></CheckBox>
+                <CheckBox Content="D.偷鸡摸狗"></CheckBox>
+                <CheckBox Content="A.牢底坐穿"></CheckBox>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="清空" Width="60" Margin="5"></Button>
+                    <Button Content="确定" Width="60" Margin="5"></Button>
+                </StackPanel>
+            </StackPanel>
+
+        </GroupBox>
+        
+    </Grid>
+</Window>

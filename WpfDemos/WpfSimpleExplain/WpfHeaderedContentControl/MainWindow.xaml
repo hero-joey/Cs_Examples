@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfHeaderedContentControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfHeaderedContentControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="100" Width="200">
+    <Grid>
+        <GroupBox>
+            <GroupBox.Header>
+                <Image Source="images/smile.png" Width="20" Height="20"></Image>
+            </GroupBox.Header>
+
+            <GroupBox.Content>
+                <TextBlock TextWrapping="Wrap">白日依山尽, 黄河入海流, 欲穷千里目, 更上一层楼</TextBlock>
+            </GroupBox.Content>
+        </GroupBox>
+    </Grid>
+</Window>

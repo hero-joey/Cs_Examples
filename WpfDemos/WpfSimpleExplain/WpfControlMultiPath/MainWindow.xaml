@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfControlMultiPath.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfControlMultiPath"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="120" Width="300">
+    <StackPanel>
+        <TextBox x:Name="TextBox1" BorderBrush="Black" Margin="5"></TextBox>
+        <TextBox Text="{Binding ElementName=TextBox1, Path=Text}" Margin="5"></TextBox>
+        <TextBox Text="{Binding ElementName=TextBox1, Path=Text.[3], Mode=OneWay}" Margin="5"></TextBox>
+    </StackPanel>
+</Window>
