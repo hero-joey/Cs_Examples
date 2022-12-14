@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListBoxItemsSample", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListBoxTemplateSample", "..\WpfListBoxTemplateSample\WpfListBoxTemplateSample.csproj", "{2DBE384E-F5AD-4473-BF38-D649551FE1C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDataProviderSample", "..\ObjectDataProviderSample\ObjectDataProviderSample.csproj", "{B773E8BD-FB7B-4BB9-B43E-DB1A93126C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRelativeSourceSample", "..\WpfRelativeSourceSample\WpfRelativeSourceSample.csproj", "{2865564E-FC3C-4256-B323-24FBBDD9DDB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{2DBE384E-F5AD-4473-BF38-D649551FE1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DBE384E-F5AD-4473-BF38-D649551FE1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DBE384E-F5AD-4473-BF38-D649551FE1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B773E8BD-FB7B-4BB9-B43E-DB1A93126C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B773E8BD-FB7B-4BB9-B43E-DB1A93126C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B773E8BD-FB7B-4BB9-B43E-DB1A93126C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B773E8BD-FB7B-4BB9-B43E-DB1A93126C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2865564E-FC3C-4256-B323-24FBBDD9DDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2865564E-FC3C-4256-B323-24FBBDD9DDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2865564E-FC3C-4256-B323-24FBBDD9DDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2865564E-FC3C-4256-B323-24FBBDD9DDB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

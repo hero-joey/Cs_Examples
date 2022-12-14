@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfRelativeSourceSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfRelativeSourceSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="210" Width="210">
+    <Grid x:Name="Grid1" Margin="10" Background="Red">
+        <DockPanel x:Name="DockPanel1" Background="Orange" Margin="10">
+            <Grid x:Name="Grid2" Margin="10" Background="Yellow">
+                <DockPanel x:Name="DockPanel2" Background="Aqua" Margin="10">
+                    <TextBox x:Name="TextBox1" FontSize="24" Margin="0" Background="White" DockPanel.Dock="Top"></TextBox>
+                    <TextBox x:Name="TextBox2" FontSize="24" Margin="0" Background="White" DockPanel.Dock="Left" Width="60"></TextBox>
+                    <TextBox x:Name="TextBox3" FontSize="24" Margin="0" Background="White" DockPanel.Dock="Right"></TextBox>
+                </DockPanel>
+            </Grid>
+        </DockPanel>
+            
+    </Grid>
+</Window>
