@@ -25,11 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateDemo", "DelegateDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDemo", "EventDemo\EventDemo.csproj", "{8E7E0AA9-908E-42E6-93A3-247A7DE567EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintStringDelegateDemo", "PrintStringDelegateDemo\PrintStringDelegateDemo.csproj", "{9B67ED1B-EC65-4601-8D4C-D9C189850226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintStringDelegateDemo", "PrintStringDelegateDemo\PrintStringDelegateDemo.csproj", "{9B67ED1B-EC65-4601-8D4C-D9C189850226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionDemo", "CollectionDemo\CollectionDemo.csproj", "{6D3840C6-8B66-47B3-AD3A-ADECCC9B7920}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionDemo", "CollectionDemo\CollectionDemo.csproj", "{6D3840C6-8B66-47B3-AD3A-ADECCC9B7920}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableDemo", "NullableDemo\NullableDemo.csproj", "{481E3297-5EE3-4EAD-BA75-EFC4AFE71DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectSample", "ReflectSample\ReflectSample.csproj", "{F7CA04DB-4109-490E-ACBC-3ADB4B30E367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{481E3297-5EE3-4EAD-BA75-EFC4AFE71DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{481E3297-5EE3-4EAD-BA75-EFC4AFE71DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{481E3297-5EE3-4EAD-BA75-EFC4AFE71DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CA04DB-4109-490E-ACBC-3ADB4B30E367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CA04DB-4109-490E-ACBC-3ADB4B30E367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CA04DB-4109-490E-ACBC-3ADB4B30E367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CA04DB-4109-490E-ACBC-3ADB4B30E367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

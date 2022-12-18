@@ -1,0 +1,25 @@
+﻿<Window x:Class="TextBindingSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBindingSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="120" Width="250" FontSize="18">
+    <Window.Resources>
+        <FontFamily x:Key="CustomFont">Microsoft YaHei</FontFamily>
+    </Window.Resources>
+        
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="TextBoxInput">Input Text</TextBox>
+        <TextBlock Grid.Row="1" x:Name="TextBlockLen" ></TextBlock>
+        <TextBlock Grid.Row="2" x:Name="TextBlockChar"></TextBlock>
+        <TextBlock Grid.Row="3" x:Name="TextBlockFont" FontFamily="{Binding Source={StaticResource CustomFont}, Path=Source}"></TextBlock>
+    </Grid>
+</Window>
